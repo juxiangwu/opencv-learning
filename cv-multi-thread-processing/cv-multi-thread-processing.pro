@@ -6,7 +6,7 @@ CONFIG -= qt
 SOURCES += main.cpp
 
 
-unix:!macx: LIBS += -L$$PWD/../../../../../opt/develop/libs/lib/ \
+unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
                     -lopencv_calib3d \
                     -lopencv_core \
                     -lopencv_cudaarithm \
@@ -70,5 +70,6 @@ unix:!macx: LIBS += -L$$PWD/../../../../../opt/develop/libs/lib/ \
                     -lboost_wserialization
 
 
-INCLUDEPATH += $$PWD/../../../../../opt/develop/libs/include
-DEPENDPATH += $$PWD/../../../../../opt/develop/libs/include
+INCLUDEPATH += $$PWD/../../../../../../opt/develop/libs/include
+DEPENDPATH += $$PWD/../../../../../../opt/develop/libs/include
+
