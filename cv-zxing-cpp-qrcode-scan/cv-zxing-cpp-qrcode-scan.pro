@@ -3,7 +3,11 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
+DEFINES += _GLIBCXX_USE_CXX11_ABI=0
+
 SOURCES += main.cpp \
+    imagereadersource.cpp \
+    qrdecoderutils.cpp \
     bounded_buffer.cpp
 
 unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
@@ -68,11 +72,14 @@ unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
                     -lboost_unit_test_framework \
                     -lboost_wave \
                     -lboost_wserialization \
-                    -lzbar
+                    -lzbar \
+                    -lzxing
 
 
 INCLUDEPATH += $$PWD/../../../../../../opt/develop/libs/include
 DEPENDPATH += $$PWD/../../../../../../opt/develop/libs/include
 
 HEADERS += \
+    imagereadersource.h \
+    qrdecoderutils.h \
     bounded_buffer.h

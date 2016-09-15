@@ -1,10 +1,26 @@
-TEMPLATE = app
-CONFIG += console
-CONFIG -= app_bundle
-CONFIG -= qt
+#-------------------------------------------------
+#
+# Project created by QtCreator 2016-09-15T22:36:55
+#
+#-------------------------------------------------
 
-SOURCES += main.cpp \
-    bounded_buffer.cpp
+QT       += core gui
+
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
+TARGET = cv-qt-camera
+TEMPLATE = app
+
+
+SOURCES += main.cpp\
+        mainwindow.cpp \
+    cvcamera.cpp
+
+HEADERS  += mainwindow.h \
+    cvcamera.h
+
+FORMS    += mainwindow.ui
+
 
 unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
                     -lopencv_calib3d \
@@ -67,12 +83,8 @@ unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
                     -lboost_type_erasure \
                     -lboost_unit_test_framework \
                     -lboost_wave \
-                    -lboost_wserialization \
-                    -lzbar
+                    -lboost_wserialization
 
 
 INCLUDEPATH += $$PWD/../../../../../../opt/develop/libs/include
 DEPENDPATH += $$PWD/../../../../../../opt/develop/libs/include
-
-HEADERS += \
-    bounded_buffer.h
