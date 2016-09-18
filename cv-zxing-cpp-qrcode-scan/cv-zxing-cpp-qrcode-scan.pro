@@ -83,3 +83,6 @@ HEADERS += \
     imagereadersource.h \
     qrdecoderutils.h \
     bounded_buffer.h
+
+DISTFILES += \
+    README.md

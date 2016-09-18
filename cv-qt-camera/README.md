@@ -1,0 +1,1 @@
+Intergrate opencv with  qt.

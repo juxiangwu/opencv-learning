@@ -76,3 +76,6 @@ DEPENDPATH += $$PWD/../../../../../../opt/develop/libs/include
 
 HEADERS += \
     bounded_buffer.h
+
+DISTFILES += \
+    README.md

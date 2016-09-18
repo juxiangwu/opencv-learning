@@ -73,3 +73,6 @@ unix:!macx: LIBS += -L/opt/develop/libs/lib/ \
 INCLUDEPATH += $$PWD/../../../../../../opt/develop/libs/include
 DEPENDPATH += $$PWD/../../../../../../opt/develop/libs/include
 
+DISTFILES += \
+    README.md
+
