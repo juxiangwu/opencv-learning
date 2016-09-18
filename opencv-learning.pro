@@ -25,4 +25,21 @@ SUBDIRS += \
     cv-cl-hello \
     cv-cuda \
     cv-multi-camera \
-    cv-stereo
+    cv-stereo \
+    cv-core-erode \
+    cv-core-blur \
+    cv-core-canny \
+    cv-core-camshift \
+    cv-higui-mouse-select \
+    cv-core-mat \
+    cv-core-color-reduce \
+    cv-core-roi \
+    cv-core-split \
+    cv-core-brightness \
+    cv-core-dft \
+    cv-write-yaml \
+    cv-core-filters \
+    cv-core-dilate \
+    cv-core-morph-open \
+    cv-core-morph-close \
+    cv-core-morph-tophat-blackhat
