@@ -42,4 +42,18 @@ SUBDIRS += \
     cv-core-dilate \
     cv-core-morph-open \
     cv-core-morph-close \
-    cv-core-morph-tophat-blackhat
+    cv-core-morph-tophat-blackhat \
+    cv-core-floodfill \
+    cv-core-threshold \
+    cv-mat-to-pcd \
+    cv-depth-image \
+    cv-depth-from-image \
+    cv-core-disparity-stereobm \
+    cv-core-math \
+    cv-auto-focus \
+    cv-core-hdr \
+    cv-convexhull \
+    cv-core-mask \
+    cv-julia \
+    cgal-hello \
+    cv-hdr-2

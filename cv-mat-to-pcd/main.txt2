@@ -1,0 +1,172 @@
+#include <pcl/io/pcd_io.h>
+#include <pcl/console/time.h>
+#include <pcl/console/print.h>
+#include <pcl/console/parse.h>
+#include <pcl/io/vtk_lib_io.h>
+#include <pcl/point_types.h>
+#include <pcl/visualization/cloud_viewer.h>
+
+#include <opencv2/opencv.hpp>
+
+using namespace pcl;
+using namespace cv;
+
+inline void depth2xyz (float v_viewing_angle, float h_viewing_angle,
+           int image_width, int image_height, int image_x, int image_y,
+           float depth, float &x, float &y, float &z)
+{
+  float width, height;
+  static const float PI = 3.1415927;
+
+  if (depth <= 0.0f)
+  {
+    x = y = z = std::numeric_limits<float>::quiet_NaN ();
+  }
+  else
+  {
+    width = depth * std::tan (h_viewing_angle * PI / 180 / 2) * 2;
+    height = depth * std::tan (v_viewing_angle * PI / 180 / 2) * 2;
+
+    x = (image_x - image_width / 2.0) / image_width * width;
+    y = (image_height / 2.0 - image_y) / image_height * height;
+    z = depth;
+  }
+}
+
+vtkSmartPointer<vtkImageData> convertMatToVtkImageData(const Mat &source)
+{
+    vtkSmartPointer<vtkImageData> output =   vtkSmartPointer<vtkImageData>( vtkImageData::New());
+    //vtkSmartPointer<vtkInformation> outInfo = vtkSmartPointer<vtkInformation>::New();
+
+    output->SetDimensions(source.cols, source.rows, 1);
+    output->AllocateScalars(VTK_UNSIGNED_CHAR, source.channels());
+
+    unsigned char* dptr = reinterpret_cast<unsigned char*>(output->GetScalarPointer());
+    size_t elem_step = output->GetIncrements()[1]/sizeof(unsigned char);
+
+    for (int y = 0; y < source.rows; ++y)
+    {
+        unsigned char* drow = dptr + elem_step * y;
+        const unsigned char *srow = source.ptr<unsigned char>(y);
+        for (int x = 0; x < source.cols; ++x)
+            drow[x] = *srow++;
+    }
+
+    output->Modified();
+    return output;
+}
+
+void mat2pointcloud(const cv::Mat & src,pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud){
+    cloud->width = src.cols;
+    cloud->height = src.rows;
+    cloud->is_dense = true;
+    //cloud->points.resize(cloud->width * cloud->height);
+    float depth = 10;
+    for(int i = 0;i < src.rows;i++){
+        const uchar * src_data = src.ptr<uchar>(i);
+        for(int j = 0;j < src.cols;j++){
+            pcl::PointXYZRGB point;
+            point.r = src_data[j];
+            point.g = src_data[j + 1];
+            point.b = src_data[j + 2];
+
+//            point.x = i;
+//            point.y = j;
+//            point.z = depth;
+            depth2xyz(90,90,src.cols,src.rows,j,i,0.1,point.x,point.y,point.z);
+            //(*cloud)(i,src.rows - j - 1) = point;
+            cloud->push_back(point);
+        }
+    }
+}
+
+void convertVtkImageDataToPointCloud(vtkSmartPointer<vtkImageData>  color_image_data,pcl::PointCloud<PointXYZRGBA>::Ptr cloud){
+    int components = color_image_data->GetNumberOfScalarComponents ();
+    int dimensions[3];
+    double* pixel = new double [4];
+    memset (pixel, 0, sizeof (double) * 4);
+    color_image_data->GetDimensions (dimensions);
+    cloud->width = dimensions[0];
+    cloud->height = dimensions[1]; // This indicates that the point cloud is organized
+    cloud->is_dense = true;
+    cloud->points.resize (cloud->width * cloud->height);
+    double v_viewing_angle = 45;
+    double h_viewing_angle = 45;
+    double depth_unit_magic = 1000;
+    for (int y = 0; y < dimensions[1]; y++)
+    {
+      for (int x = 0; x < dimensions[0]; x++)
+      {
+        for (int c = 0; c < components; c++)
+          pixel[c] = color_image_data->GetScalarComponentAsDouble (x, y, 0, c);
+        double depth = color_image_data->GetScalarComponentAsFloat (x, y, 0, 0) / depth_unit_magic;
+
+        PointXYZRGBA color;
+        depth2xyz (v_viewing_angle, h_viewing_angle,
+                   cloud->width, cloud->height, x, y,
+                   depth, color.x, color.y, color.z);
+        color.r = 0;
+        color.g = 0;
+        color.b = 0;
+        color.a = 0;
+
+        switch (components)
+        {
+          case 1:  color.r = static_cast<uint8_t> (pixel[0]);
+          color.g = static_cast<uint8_t> (pixel[0]);
+          color.b = static_cast<uint8_t> (pixel[0]);
+          break;
+
+          case 3:  color.r = static_cast<uint8_t> (pixel[0]);
+          color.g = static_cast<uint8_t> (pixel[1]);
+          color.b = static_cast<uint8_t> (pixel[2]);
+          break;
+
+          case 4:  color.r = static_cast<uint8_t> (pixel[0]);
+          color.g = static_cast<uint8_t> (pixel[1]);
+          color.b = static_cast<uint8_t> (pixel[2]);
+          color.a = static_cast<uint8_t> (pixel[3]);
+          break;
+        }
+
+        (*cloud) (x, dimensions[1] - y -1) = color;
+      }
+    }
+    delete pixel;
+}
+int user_data;
+void viewerOneOff (pcl::visualization::PCLVisualizer& viewer)
+{
+    viewer.setBackgroundColor (0.0, 0.0, 0.0);
+}
+
+void viewerPsycho (pcl::visualization::PCLVisualizer& viewer)
+{
+    user_data = 9;
+}
+
+int main(int argc,char * argv[]){
+
+    cv::Mat img = cv::imread("/home/jenson/Pictures/linear.jpg");
+    cv::Mat dst;
+    cv::cvtColor(img,dst,cv::COLOR_BGR2RGB);
+//    vtkSmartPointer<vtkImageData> imgData = convertMatToVtkImageData(dst);
+    pcl::PointCloud<pcl::PointXYZRGB>::Ptr cloud(new pcl::PointCloud<pcl::PointXYZRGB>);
+//    convertVtkImageDataToPointCloud(imgData,cloud);
+
+    mat2pointcloud(dst,cloud);
+    std::cout <<"cloud size = " << cloud->size() << std::endl;
+    pcl::io::savePCDFile("output.pcd",*cloud);
+    pcl::visualization::CloudViewer viewer("Cloud Viewer");
+    viewer.showCloud(cloud);
+
+    viewer.runOnVisualizationThreadOnce (viewerOneOff);
+
+    viewer.runOnVisualizationThread (viewerPsycho);
+
+    while (!viewer.wasStopped ())
+    {
+        user_data = 9;
+    }
+    return 0;
+}

@@ -1,0 +1,39 @@
+#include <iostream>
+#include <opencv2/opencv.hpp>
+#include <vtk/vtkSmartPointer.h>
+#include <vtk/vtkImageData.h>
+using namespace cv;
+using namespace std;
+
+//class vtkSmartPointer;
+//class vtkImageData;
+
+vtkSmartPointer<vtkImageData> convertMatToVtkImageData(const Mat &source)
+{
+    vtkSmartPointer<vtkImageData> output =    vtkSmartPointer<vtkImageData>::New();
+    vtkSmartPointer<vtkInformation> outInfo = vtkSmartPointer<vtkInformation>::New();
+
+    output->SetDimensions(source.cols, source.rows, 1);
+    output->AllocateScalars(VTK_UNSIGNED_CHAR, source.channels());
+
+    unsigned char* dptr = reinterpret_cast<unsigned char*>(output->GetScalarPointer());
+    size_t elem_step = output->GetIncrements()[1]/sizeof(unsigned char);
+
+    for (int y = 0; y < source.rows; ++y)
+    {
+        unsigned char* drow = dptr + elem_step * y;
+        const unsigned char *srow = source.ptr<unsigned char>(y);
+        for (int x = 0; x < source.cols; ++x)
+            drow[x] = *srow++;
+    }
+
+    output->Modified();
+    return output;
+}
+
+
+int main(int argc, char *argv[])
+{
+    cout << "Hello World!" << endl;
+    return 0;
+}
