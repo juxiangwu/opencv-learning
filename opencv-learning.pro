@@ -56,4 +56,9 @@ SUBDIRS += \
     cv-core-mask \
     cv-julia \
     cgal-hello \
-    cv-hdr-2
+    cv-hdr-2 \
+    cv-effect-halo \
+    cv-effect-cartoon \
+    cv-core-video-capture \
+    cv-remove-background \
+    cv-core-segmentation
