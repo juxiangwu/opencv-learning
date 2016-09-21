@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.0.1, 2016-09-19T23:38:00. -->
+<!-- Written by QtCreator 4.0.1, 2016-09-21T21:44:11. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -2696,6 +2696,180 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
    </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.47">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-auto-focus</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-auto-focus/cv-auto-focus.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-auto-focus/cv-auto-focus.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.48">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-convexhull</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-convexhull/cv-convexhull.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-convexhull/cv-convexhull.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.49">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cgal-hello</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cgal-hello/cgal-hello.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cgal-hello/cgal-hello.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
     <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
@@ -2754,6 +2928,586 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
    </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.50">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-disparity-stereobm</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-disparity-stereobm/cv-core-disparity-stereobm.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-disparity-stereobm/cv-core-disparity-stereobm.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.51">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-hdr</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-hdr/cv-core-hdr.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-hdr/cv-core-hdr.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.52">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-mask</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-mask/cv-core-mask.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-mask/cv-core-mask.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.53">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-math</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-math/cv-core-math.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-math/cv-core-math.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.54">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-hdr-2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-hdr-2/cv-hdr-2.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-hdr-2/cv-hdr-2.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.55">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-julia</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-julia/cv-julia.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-julia/cv-julia.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.56">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-effect-halo</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-effect-halo/cv-effect-halo.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-effect-halo/cv-effect-halo.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.57">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-effect-cartoon</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-effect-cartoon/cv-effect-cartoon.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-effect-cartoon/cv-effect-cartoon.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.58">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-video-capture</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-video-capture/cv-core-video-capture.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-video-capture/cv-core-video-capture.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.59">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-remove-background</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-remove-background/cv-remove-background.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-remove-background/cv-remove-background.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
     <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
@@ -2802,6 +3556,412 @@
     <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-extract-simple-depth/cv-extract-simple-depth.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.60">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-segmentation</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-segmentation/cv-core-segmentation.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-segmentation/cv-core-segmentation.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.61">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-algorithm</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-algorithm/cv-core-algorithm.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-algorithm/cv-core-algorithm.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.62">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-feature-surf</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-feature-surf/cv-core-feature-surf.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-feature-surf/cv-core-feature-surf.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.63">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-feature-sift</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-feature-sift/cv-core-feature-sift.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-feature-sift/cv-core-feature-sift.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.64">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-feature-orb</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-feature-orb/cv-core-feature-orb.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-feature-orb/cv-core-feature-orb.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.65">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-feature-fast</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-feature-fast/cv-core-feature-fast.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-feature-fast/cv-core-feature-fast.pro</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.66">
+    <value type="bool" key="Analyzer.QmlProfiler.AggregateTraces">false</value>
+    <value type="bool" key="Analyzer.QmlProfiler.FlushEnabled">false</value>
+    <value type="uint" key="Analyzer.QmlProfiler.FlushInterval">1000</value>
+    <value type="QString" key="Analyzer.QmlProfiler.LastTraceFile"></value>
+    <value type="bool" key="Analyzer.QmlProfiler.Settings.UseGlobalSettings">true</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.AddedSuppressionFiles"/>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectBusEvents">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.CollectSystime">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableBranchSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableCacheSim">false</value>
+    <value type="bool" key="Analyzer.Valgrind.Callgrind.EnableEventToolTips">true</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.MinimumCostRatio">0.01</value>
+    <value type="double" key="Analyzer.Valgrind.Callgrind.VisualisationMinimumCostRatio">10</value>
+    <value type="bool" key="Analyzer.Valgrind.FilterExternalIssues">true</value>
+    <value type="int" key="Analyzer.Valgrind.LeakCheckOnFinish">1</value>
+    <value type="int" key="Analyzer.Valgrind.NumCallers">25</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.RemovedSuppressionFiles"/>
+    <value type="int" key="Analyzer.Valgrind.SelfModifyingCodeDetection">1</value>
+    <value type="bool" key="Analyzer.Valgrind.Settings.UseGlobalSettings">true</value>
+    <value type="bool" key="Analyzer.Valgrind.ShowReachable">false</value>
+    <value type="bool" key="Analyzer.Valgrind.TrackOrigins">true</value>
+    <value type="QString" key="Analyzer.Valgrind.ValgrindExecutable">valgrind</value>
+    <valuelist type="QVariantList" key="Analyzer.Valgrind.VisibleErrorKinds">
+     <value type="int">0</value>
+     <value type="int">1</value>
+     <value type="int">2</value>
+     <value type="int">3</value>
+     <value type="int">4</value>
+     <value type="int">5</value>
+     <value type="int">6</value>
+     <value type="int">7</value>
+     <value type="int">8</value>
+     <value type="int">9</value>
+     <value type="int">10</value>
+     <value type="int">11</value>
+     <value type="int">12</value>
+     <value type="int">13</value>
+     <value type="int">14</value>
+    </valuelist>
+    <value type="int" key="PE.EnvironmentAspect.Base">2</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">cv-core-track-match-template</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/jenson/Develop/QtCreator/opencv-learning/cv-core-track-match-template/cv-core-track-match-template.pro</value>
+    <value type="bool" key="QmakeProjectManager.QmakeRunConfiguration.UseLibrarySearchPath">true</value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.CommandLineArguments"></value>
+    <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.ProFile">cv-core-track-match-template/cv-core-track-match-template.pro</value>
     <value type="bool" key="Qt4ProjectManager.Qt4RunConfiguration.UseDyldImageSuffix">false</value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory"></value>
     <value type="QString" key="Qt4ProjectManager.Qt4RunConfiguration.UserWorkingDirectory.default"></value>
@@ -2986,7 +4146,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
    </valuemap>
-   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">47</value>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">67</value>
   </valuemap>
  </data>
  <data>

@@ -61,4 +61,18 @@ SUBDIRS += \
     cv-effect-cartoon \
     cv-core-video-capture \
     cv-remove-background \
-    cv-core-segmentation
+    cv-core-segmentation \
+    cv-core-algorithm \
+    cv-core-feature-surf \
+    cv-core-feature-surf \
+    cv-core-feature-sift \
+    cv-core-feature-orb \
+    cv-core-feature-fast \
+    cv-core-track-match-template \
+    cv-core-feature-good-to-track \
+    cv-core-feature-harris \
+    cv-core-feature-harris-2 \
+    cv-core-feature-corner-sub-pixel \
+    cv-core-pixel-access \
+    cv-face-lbp \
+    cv-face-haar
