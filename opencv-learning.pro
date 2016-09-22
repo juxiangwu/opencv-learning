@@ -75,4 +75,17 @@ SUBDIRS += \
     cv-core-feature-corner-sub-pixel \
     cv-core-pixel-access \
     cv-face-lbp \
-    cv-face-haar
+    cv-face-haar \
+    cv-core-detect-contours \
+    cv-core-detect-hough-lines \
+    cv-core-detect-find-contous \
+    cv-psnr-ssim \
+    cv-core-feature-sift-2 \
+    cv-ffmpeg-video \
+    cv-grab-cut \
+    cv-face-video \
+    cv-asmlib \
+    cv-tesseract \
+    cv-tesseract-2 \
+    cv-find-rect \
+    cv-tesseract-3
